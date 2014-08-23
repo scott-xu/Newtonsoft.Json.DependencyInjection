@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Newtonsoft.Json.Ninject</id>
+    <version>1.0.0-alpha1</version>
+    <title>Newtonsoft.Json.Ninject</title>
+    <authors>Scott Xu</authors>
+    <owners>scott xu</owners>
+    <licenseUrl>https://github.com/scott-xu/Newtonsoft.Json.DependencyInjection/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/scott-xu/Newtonsoft.Json.DependencyInjection</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Ninject resolver for Json.Net</description>
+    <copyright>Copyright 2014</copyright>
+    <tags>Ninject Json.Net Newtonsoft.Json ContractResolver</tags>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="6.0.4" />
+      <dependency id="Ninject" version="3.2.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\**\Newtonsoft.Json.Ninject.dll" target="lib" />
+  </files>
+</package>
