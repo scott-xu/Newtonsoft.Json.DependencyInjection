@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------------------------------------------
-// <copyright file="NinjectContractResolver.cs" company="Scott Xu">
+// <copyright file="NinjectCamelCasePropertyNamesContractResolver.cs" company="Scott Xu">
 //   Copyright (c) 2014 Scott Xu.
 // </copyright>
 //-----------------------------------------------------------------------------------------------------
@@ -11,20 +11,20 @@ namespace Newtonsoft.Json.Ninject
     using global::Ninject;
 
     /// <summary>
-    /// Ninject contract resolver
+    /// Ninject camelCasePropertyNames contract resolver
     /// </summary>
-    public class NinjectContractResolver : DefaultContractResolver
-    {
+    public class NinjectCamelCasePropertyNamesContractResolver : CamelCasePropertyNamesContractResolver
+    {        
         /// <summary>
         /// The <see cref="IKernel"/>.
         /// </summary>
         private readonly IKernel kernel;
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="NinjectContractResolver"/> class.
+        /// Initializes a new instance of the <see cref="NinjectCamelCasePropertyNamesContractResolver"/> class.
         /// </summary>
         /// <param name="kernel">The <see cref="IKernel"/>.</param>
-        public NinjectContractResolver(IKernel kernel)
+        public NinjectCamelCasePropertyNamesContractResolver(IKernel kernel)
         {
             this.kernel = kernel;
         }
