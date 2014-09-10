@@ -1,2 +1,2 @@
-Newtonsoft.Json.DependencyInjection
+Json.NET DependencyInjection
 ===================================
