@@ -1,15 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Newtonsoft.Json.Ninject", "Newtonsoft.Json.Ninject\Newtonsoft.Json.Ninject.csproj", "{ED3250E4-0D27-4B1F-8C98-4BAC90F0AB9E}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{07BE56A9-1F27-4C7D-89BC-27EC617F719B}"
-	ProjectSection(SolutionItems) = preProject
-		build.bat = build.bat
-		Newtonsoft.Json.Ninject\Settings.StyleCop = Newtonsoft.Json.Ninject\Settings.StyleCop
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Newtonsoft.Json.Ninject.Tests", "Newtonsoft.Json.Ninject.Tests\Newtonsoft.Json.Ninject.Tests.csproj", "{62CC809F-B432-4D60-84D0-64CA7FEC928C}"
 EndProject
@@ -30,5 +24,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {249B4F9B-B05F-4CCD-AE35-25E003F9714F}
 	EndGlobalSection
 EndGlobal

@@ -4,9 +4,10 @@
     using global::Ninject;
     using Xunit;
 
+    [Collection("JsonConvert DefaultSettings Collection")]
     public class NinjectContractResolverTests
     {
-        private IKernel kernel = new StandardKernel();
+        private readonly IKernel kernel = new StandardKernel();
 
         public NinjectContractResolverTests()
         {
